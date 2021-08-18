@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-theme: jekyll-theme-slate
-=======
+@@ -1,55 +0,0 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -56,4 +54,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
->>>>>>> parent of 30bc89e (Delete _config.yml)

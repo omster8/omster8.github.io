@@ -21,11 +21,12 @@
 title: Om Patel
 email: ompatel03@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! Welcome to my website portfolio.
+  HI! Welcome to my portfolio website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  omster8
+linkedin_username:
 
 # Build settings
 theme: minima

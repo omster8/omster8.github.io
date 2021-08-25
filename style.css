@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 90%;
+    width: 80%;
 }
 /*nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -19,13 +19,13 @@ a:hover {
     text-decoration: underline;
 }*/
 p {
-    font-size: 25px;
-    line-height: 40px;
+    /*font-size: 25px;
+    line-height: 40px;*/
     color: #333;
-    /*
+    
     font-size: 1.5em;
     line-height: 1.4em;
-    */
+    
 }
 footer {
     /*border-top: 1px solid #d5d5d5;*/
@@ -55,7 +55,7 @@ ul.posts li {
 #resume {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .title {
@@ -70,14 +70,15 @@ ul.posts li {
 }
 
 #pic {
-    display: inline-block;
+    
 }
 
 #about-text {
     display: inline-block;
-    width: 50%;
+    
 }
 
 #socials-1, #socials-2, #projects-1, #projects-2 {
     display: inline-block;
 }
+

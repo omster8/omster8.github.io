@@ -44,7 +44,7 @@ ul.posts li {
 /* -----------------------------------------------------------------------------------------*/
 
 #about {
-    text-align: left;
+    text-align: center;
 }
 
 #projects {
@@ -69,13 +69,6 @@ ul.posts li {
     text-align: center;
 }
 
-
-
-#accpic {
-    
-    
-}
-
 @media only screen and (min-width: 768px) {
     #pic {
         display: inline-block;
@@ -95,9 +88,14 @@ ul.posts li {
 
 
 @media only screen and (max-width: 767px) {
-    
+    #accpic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #pic {
-        width: 100%;
+        
     }
 
     #about-text {

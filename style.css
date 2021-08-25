@@ -69,9 +69,7 @@ ul.posts li {
     text-align: center;
 }
 
-#pic {
-    display: inline-block;
-}
+
 
 #accpic {
     border-color: aqua;
@@ -79,6 +77,10 @@ ul.posts li {
 }
 
 @media only screen and (min-width: 768px) {
+    #pic {
+        display: inline-block;
+    }
+    
     #about-text {
         display: inline-block;
         width: 60%;
@@ -90,15 +92,20 @@ ul.posts li {
     }
 }
 
+
+
 @media only screen and (max-width: 767px) {
+    
+    #pic {
+        
+    }
+
     #about-text {
-        display: inline-block;
-        width: 60%;
-        vertical-align: 100px;
+        width: 100%;
         color: #333;
     
-        font-size: 100px;
-        line-height: 200px;
+        font-size: 20px;
+        line-height: 35px;
     }
   }
 

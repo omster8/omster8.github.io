@@ -20,7 +20,7 @@ a:hover {
 }*/
 p {
     font-size: 25px;
-    line-height: 40px;
+    line-height: 32px;
     color: #333;
     
     /*font-size: 1.5em;
@@ -59,12 +59,13 @@ ul.posts li {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 40px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 #site-title {
-    font-size: 3.5em;
+    font-size: 40px;
+    line-height: 10px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
@@ -102,8 +103,8 @@ ul.posts li {
         width: 100%;
         color: #333;
     
-        font-size: 20px;
-        line-height: 35px;
+        font-size: 30px;
+        line-height: 40px;
     }
   }
 

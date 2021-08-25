@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 90%;
 }
 /*nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -10,16 +10,16 @@ body {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}*/
+}
 a {
     text-decoration: none;
     color: #999;
 }
 a:hover {
     text-decoration: underline;
-}
+}*/
 p {
-    font-size: 3em;
+    font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
@@ -39,9 +39,19 @@ ul.posts li {
 
 /* -----------------------------------------------------------------------------------------*/
 
-#projects, #resume, #about {
-    padding-top: 100px;
+#about {
     text-align: center;
+}
+
+#projects {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#resume {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .title {
@@ -49,31 +59,21 @@ ul.posts li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-nav ul li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    font-weight: bold;
-    display: inline;
-    margin-right: 20px;
-    font-size: 1.5em;
-}
-
-nav ul {
-    padding-top: 30px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
 #site-title {
-    font-size: 4em;
+    font-size: 3.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    display: inline;
+    text-align: center;
 }
 
-.navi {
-    display: inline;
+#pic {
+    display: inline-block;
 }
 
-#list-navi {
-    float: right;
+#about-text {
+    display: inline-block;
+    width: 50%;
+}
+
+#socials-1, #socials-2, #projects-1, #projects-2 {
+    display: inline-block;
 }

@@ -78,7 +78,7 @@ ul.posts li {
     border-width: 4px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     #about-text {
         display: inline-block;
         width: 60%;
@@ -90,15 +90,15 @@ ul.posts li {
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     #about-text {
         display: inline-block;
         width: 60%;
         vertical-align: 100px;
         color: #333;
     
-        font-size: 40px;
-        line-height: 70px;
+        font-size: 100px;
+        line-height: 200px;
     }
   }
 

@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%;
+    background-color: rgb(255, 254, 219);
 }
 /*nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -21,11 +22,12 @@ a:hover {
 p {
     font-size: 25px;
     line-height: 32px;
-    color: #333;
+    color: rgb(49, 49, 49);
     
     /*font-size: 1.5em;
     line-height: 1.4em;*/
     
+    font-family: 'Open Sans', sans-serif;
 }
 footer {
     /*border-top: 1px solid #d5d5d5;*/
@@ -60,13 +62,13 @@ ul.posts li {
 
 .title {
     font-size: 40px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Kaisei Decol', serif;
 }
 
 #site-title {
     font-size: 40px;
-    line-height: 10px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    line-height: 20px;
+    font-family: 'Kaisei Decol', serif;
     text-align: center;
 }
 
@@ -85,7 +87,7 @@ ul.posts li {
         display: inline-block;
         width: 60%;
         vertical-align: 100px;
-        color: #333;
+        color: rgb(49, 49, 49);
         
         font-size: 25px;
         line-height: 32px;
@@ -97,7 +99,7 @@ ul.posts li {
 @media only screen and (max-width: 767px) {
     #about-text {
         width: 100%;
-        color: #333;
+        color: rgb(49, 49, 49);
     
         font-size: 26px;
         line-height: 33px;
@@ -108,3 +110,26 @@ ul.posts li {
     display: inline-block;
 }
 
+strong {
+    color: rgb(122, 142, 255);
+}
+
+a:link {
+    color: rgb(122, 142, 255);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(122, 142, 255);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(71, 98, 255);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(52, 82, 255);
+    text-decoration: underline;
+}

@@ -19,12 +19,12 @@ a:hover {
     text-decoration: underline;
 }*/
 p {
-    /*font-size: 25px;
-    line-height: 40px;*/
+    font-size: 25px;
+    line-height: 40px;
     color: #333;
     
-    font-size: 1.5em;
-    line-height: 1.4em;
+    /*font-size: 1.5em;
+    line-height: 1.4em;*/
     
 }
 footer {
@@ -78,27 +78,27 @@ ul.posts li {
     border-width: 4px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     #about-text {
         display: inline-block;
         width: 60%;
         vertical-align: 100px;
         color: #333;
         
-        font-size: 1.5em;
-        line-height: 1.4em;
+        font-size: 25px;
+        line-height: 40px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #about-text {
         display: inline-block;
         width: 60%;
         vertical-align: 100px;
         color: #333;
     
-        font-size: 2em;
-        line-height: 1.4em;
+        font-size: 40px;
+        line-height: 70px;
     }
   }
 

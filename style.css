@@ -74,6 +74,7 @@ ul.posts li {
     #pic {
         display: inline-block;
         margin-left: 20px;
+        margin-top: 10px;
     }
     
     #about-text {
@@ -90,15 +91,6 @@ ul.posts li {
 
 
 @media only screen and (max-width: 767px) {
-    #accpic {
-        
-
-    }
-
-    #pic {
-        
-    }
-
     #about-text {
         width: 100%;
         color: #333;

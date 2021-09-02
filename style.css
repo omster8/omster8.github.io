@@ -20,8 +20,8 @@ a:hover {
     text-decoration: underline;
 }*/
 p {
-    font-size: 25px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     color: rgb(49, 49, 49);
     
     /*font-size: 1.5em;
@@ -29,9 +29,20 @@ p {
     
     font-family: 'Open Sans', sans-serif;
 }
+
+#foot {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(49, 49, 49);
+    
+    /*font-size: 1.5em;
+    line-height: 1.4em;*/
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
 footer {
-    /*border-top: 1px solid #d5d5d5;*/
-    font-size: .8em;
+    border-top:1px solid rgb(207, 207, 207);
 }
 
 ul.posts { 
@@ -46,16 +57,25 @@ ul.posts li {
 /* -----------------------------------------------------------------------------------------*/
 
 #about {
-    text-align: center;
+    text-align: left;
 }
 
 #projects {
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
 }
 
-#resume {
+#pics1 {
     text-align: center;
+}
+
+#pics2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#resume {
+    text-align: left;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -89,8 +109,8 @@ ul.posts li {
         vertical-align: 100px;
         color: rgb(49, 49, 49);
         
-        font-size: 25px;
-        line-height: 32px;
+        font-size: 20px;
+        line-height: 31px;
     }
 }
 
@@ -101,8 +121,8 @@ ul.posts li {
         width: 100%;
         color: rgb(49, 49, 49);
     
-        font-size: 26px;
-        line-height: 33px;
+        font-size: 21px;
+        line-height: 29px;
     }
   }
 
